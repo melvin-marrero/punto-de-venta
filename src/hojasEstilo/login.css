@@ -1,0 +1,45 @@
+.container-login{
+    background: #055f7c;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px auto;
+    width: 25%;
+}
+.form-login label{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+.form-login input{
+    margin: 5px;
+    outline: none;
+}
+.h4-logi{
+    text-align: center;
+    color: white;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+.conten-image img{
+    width: 250px;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+}
+.btn-inp{
+    background-color: #a39c9c;
+    border: none;
+}
+.btn-inp:hover{
+    background-color: green;
+}
+span{
+    color: red;
+    font-size: 12px;
+}

@@ -3,6 +3,13 @@ h6{
 }
 .total{
     font-weight: bold;
+    font-size: 12px;
+}
+.h4-product{
+    font-size: 14px;
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
 }
 button{
     border: none;
@@ -13,3 +20,38 @@ button{
     align-items: center;
     justify-content: center;
 }
+.text-item{
+    font-size: 12px;
+    display: flex;
+}
+.p-decri{
+    margin: 3px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-eliminar{
+    margin: 5px;
+    font-weight: bold;
+    color: red;
+}
+.btn-eliminar:hover{
+background-color: black;
+}
+ul li p{
+    cursor: pointer;
+}
+.btn-user{
+    margin-top: 10px;
+    color: blue;
+}
+
+@media print {
+    body {
+      width: 58mm; /* Tamaño típico para papel térmico */
+      font-size: 12px; /* Texto pequeño y claro */
+    }
+}
+
+  
